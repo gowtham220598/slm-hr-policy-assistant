@@ -1,0 +1,7 @@
+id,mode,question,reference,prediction,token_recall,latency_seconds,context_found
+1,baseline,How much casual leave do employees get?,Employees receive 12 casual leave days per calendar year.,"In the United States, the average employee receives approximately 10-15 days of paid vacation time per year. However, this can vary depending on factors such as the company's policies, industry, and location. Some companies may offer more or less leave, and it's essential to check with your HR department or supervisor to understand the specifics.",0.444,13.767,False
+1,policy_context,How much casual leave do employees get?,Employees receive 12 casual leave days per calendar year.,I do not have that policy information.,0.0,2.561,True
+2,baseline,How many sick leave days are available?,Employees receive 6 sick leave days per calendar year.,"There are 1,250 sick leave days available for the year.",0.444,3.546,False
+2,policy_context,How many sick leave days are available?,Employees receive 6 sick leave days per calendar year.,I do not have that policy information.,0.0,2.585,True
+11,baseline,Can I work overtime?,Overtime requires prior written approval from the reporting manager.,"As an AI, I don't have real-time access to your current work schedule or any specific job details. I can suggest that you check your company's policies and benefits to see if there are any restrictions on overtime.",0.111,9.068,False
+11,policy_context,Can I work overtime?,Overtime requires prior written approval from the reporting manager.,I do not have that policy information.,0.0,2.622,True

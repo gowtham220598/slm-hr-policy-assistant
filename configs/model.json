@@ -1,0 +1,6 @@
+{
+  "selected": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "adaptation": "domain-context prompt conditioning (no weight fine-tuning)",
+  "optimization": "greedy decoding and max_new_tokens 128 -> 64",
+  "dataset": "synthetic demonstration HR policy, not actual employer policy"
+}
